@@ -1,0 +1,1 @@
+command git status check all files if you add new files to the repository
