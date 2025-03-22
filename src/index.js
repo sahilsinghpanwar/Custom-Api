@@ -1,19 +1,15 @@
-// require('dotenv').config({path: './env'});  ye dotenv hum esliye use krte h taki hum aager kisi bhi folder kai under koi bhi files ho toh vo easily excess ho jaye.
-// or
 import dotenv from "dotenv"
 
 import connectDB from "./db/index.js";
 
+import {app} from './app.js';
 
 dotenv.config({
     path: './env'
 })
 
 
-
-// connectDB import kr do or excute kr doh
 connectDB()
-// conncet hone kai baad server start kr do
 
 .then(() => {
     
